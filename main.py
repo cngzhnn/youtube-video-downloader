@@ -48,12 +48,3 @@ if __name__ == "__main__":
     mainWin = MainWindow()
     mainWin.show()
     sys.exit(app.exec_())
-
-# from pytube import YouTube
-#
-# link = input("link: ")
-#
-# yt = YouTube(link)
-# ys = yt.streams.get_highest_resolution()
-#
-# ys.download("C:\\Users\\cngzh\\Desktop")
